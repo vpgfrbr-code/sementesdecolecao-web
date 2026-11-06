@@ -5,6 +5,7 @@ export interface Cultivar {
   badge: string;
   price: number;
   description: string;
+  terpenes: string[];
 }
 
 export const CULTIVARS: Cultivar[] = [
@@ -14,7 +15,8 @@ export const CULTIVARS: Cultivar[] = [
     lineage: '(Superboof x Tropicanna Cherry) x Superboof',
     badge: 'Edição Especial Collab MC Neguinho do Kaxeta',
     price: 350.00,
-    description: 'Trabalho de estabilização genética com perfil terpénico de alta intensidade e notas complexas.'
+    description: 'Trabalho de estabilização genética com perfil terpénico de altíssima intensidade e notas cítricas adocicadas.',
+    terpenes: ['Mirceno', 'Cariofileno', 'Limoneno']
   },
   {
     id: 'maracuruja',
@@ -22,7 +24,8 @@ export const CULTIVARS: Cultivar[] = [
     lineage: 'Linhagem Selecionada',
     badge: 'Sementes de Coleção',
     price: 280.00,
-    description: 'Perfil tropical exuberante, aroma penetrante com acidez equilibrada de maracujá.'
+    description: 'Perfil tropical exuberante, aroma penetrante e penetrante acidez adocicada de maracujá fresco.',
+    terpenes: ['Ocimeno', 'Limoneno', 'Linalol']
   },
   {
     id: 'tropical-spritz',
@@ -30,7 +33,8 @@ export const CULTIVARS: Cultivar[] = [
     lineage: 'Forbidden Fruit x Spritzer',
     badge: 'Lote Limitado',
     price: 300.00,
-    description: 'Doçura frutada intensa, notas cítricas e acabamento aromático refinado.'
+    description: 'Doçura frutada refinada, notas de frutas vermelhas e acabamento gasoso característico.',
+    terpenes: ['Terpinoleno', 'Mirceno', 'Pineno']
   },
   {
     id: 'forbidden-orange',
@@ -38,6 +42,7 @@ export const CULTIVARS: Cultivar[] = [
     lineage: 'Seleção Cítrica Exclusiva',
     badge: 'Coleção Regular',
     price: 260.00,
-    description: 'Terpenos pronunciados de laranja doce com fundo floral terroso marcante.'
+    description: 'Terpenos intensos de raspas de laranja doce com fundo floral e terroso.',
+    terpenes: ['Limoneno', 'Humuleno', 'Cariofileno']
   }
 ];
