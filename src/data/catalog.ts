@@ -3,6 +3,7 @@ export interface Cultivar {
   name: string;
   lineage: string;
   badge: string;
+  price: number;
   description: string;
 }
 
@@ -12,6 +13,7 @@ export const CULTIVARS: Cultivar[] = [
     name: 'Caxeta Beat BX1',
     lineage: '(Superboof x Tropicanna Cherry) x Superboof',
     badge: 'Edição Especial Collab MC Neguinho do Kaxeta',
+    price: 350.00,
     description: 'Trabalho de estabilização genética com perfil terpénico de alta intensidade e notas complexas.'
   },
   {
@@ -19,6 +21,7 @@ export const CULTIVARS: Cultivar[] = [
     name: 'Maracurujá',
     lineage: 'Linhagem Selecionada',
     badge: 'Sementes de Coleção',
+    price: 280.00,
     description: 'Perfil tropical exuberante, aroma penetrante com acidez equilibrada de maracujá.'
   },
   {
@@ -26,6 +29,7 @@ export const CULTIVARS: Cultivar[] = [
     name: 'Tropical Spritz',
     lineage: 'Forbidden Fruit x Spritzer',
     badge: 'Lote Limitado',
+    price: 300.00,
     description: 'Doçura frutada intensa, notas cítricas e acabamento aromático refinado.'
   },
   {
@@ -33,6 +37,7 @@ export const CULTIVARS: Cultivar[] = [
     name: 'Forbidden Orange',
     lineage: 'Seleção Cítrica Exclusiva',
     badge: 'Coleção Regular',
+    price: 260.00,
     description: 'Terpenos pronunciados de laranja doce com fundo floral terroso marcante.'
   }
 ];
